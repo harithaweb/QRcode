@@ -1,0 +1,53 @@
+body{
+    background-color:hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    /* justify-content: center; */
+
+}
+div{
+    position: absolute;
+    background-color: #ffff;
+    padding:9%;
+    padding-right: 4%;
+    padding-bottom:19%;
+    width: 4%;
+    margin: 69px 470px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    max-width:300px;
+}
+.qr-image{
+    height: 220px;
+    border-radius: 8px;
+    position: absolute;
+    top: 13px;
+    right:14px;
+    left: 10px;
+    text-align: center;
+}
+.text{
+    position: absolute;
+    text-align: center;
+    top: 244px;
+    padding-left: 6%;
+    right: 20px;
+    font-family: 'outfit',sans-serif;
+    font-size: 16px;
+    font-weight: 60%;
+}
+
+
+.p-1{
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    right: 13px;
+    padding-left: 6%;
+    font-family: outfit;
+    font-size: 12px;
+    color: rgb(147, 147, 147);
+
+}
